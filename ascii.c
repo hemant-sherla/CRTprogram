@@ -1,0 +1,10 @@
+#include<stdio.h>
+main()
+{
+	int a=10;
+	float b=82;
+	int val=65;
+	char ch='a';
+	printf("\n val = %c", val);
+	printf("\n ch = %d",ch);
+}
