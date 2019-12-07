@@ -1,18 +1,15 @@
 #include<stdio.h>
 main()
 {
-	int n;
+	char n;
 	printf("enter the value:",n);
 	scanf("%d",&n);
-	if(n>0)
+	if(n%400==0,n%100==0,n%4==0)
 	{
-		printf("\n positive");
-	}
-	else if(n<0)
-	{
-		printf("\n negative");
+		printf("\n leap year");
+	
 	}
 	else {
-		printf("0");
+		printf("not a leap year");
 	}
 }
